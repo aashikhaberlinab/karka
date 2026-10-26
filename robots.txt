@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Crawl delay to be gentle on the server
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.youaspirant.com/sitemap.xml

@@ -1,0 +1,24 @@
+<svg width="240" height="48" viewBox="0 0 240 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="You Aspirant logo">
+  <defs>
+    <linearGradient id="la" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="lb" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: stylized upward aspirant "Y" + rising arrow -->
+  <rect width="48" height="48" rx="13" fill="url(#la)"/>
+  <path d="M11 14 18 24" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M37 14 30 24" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M18 24 24 33" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M18 35h12" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M24 33V14" stroke="#fff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <!-- rising star / accent dot -->
+  <circle cx="24" cy="10.5" r="3.4" fill="url(#lb)"/>
+  <!-- Wordmark -->
+  <text x="60" y="22" font-family="'Plus Jakarta Sans','Segoe UI',sans-serif" font-size="17" font-weight="800" fill="#0F172A" letter-spacing="-0.4">You Aspirant</text>
+  <text x="61" y="37" font-family="'Plus Jakarta Sans','Segoe UI',sans-serif" font-size="9.5" font-weight="600" fill="#64748B" letter-spacing="1.4">CAREER GUIDANCE &amp; TRAINING</text>
+</svg>

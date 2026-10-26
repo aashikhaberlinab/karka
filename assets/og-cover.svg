@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e1b4b"/>
+      <stop offset="0.5" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="280" fill="url(#glow)"/>
+  <circle cx="180" cy="540" r="240" fill="url(#glow)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(90,80)">
+    <rect width="64" height="64" rx="17" fill="#ffffff" opacity="0.1"/>
+    <path d="M32 46V18" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M14 18 32 46" stroke="#fff" stroke-width="3.4" stroke-linecap="round" opacity="0.92"/>
+    <path d="M50 18 32 46" stroke="#fff" stroke-width="3.4" stroke-linecap="round" opacity="0.92"/>
+    <circle cx="32" cy="14" r="4.5" fill="url(#amber)"/>
+    <text x="84" y="28" font-family="'Plus Jakarta Sans',sans-serif" font-size="24" font-weight="800" fill="#fff">You Aspirant</text>
+    <text x="86" y="52" font-family="'Plus Jakarta Sans',sans-serif" font-size="13" font-weight="600" fill="#c7d2fe" letter-spacing="2">CAREER GUIDANCE &amp; TRAINING</text>
+  </g>
+
+  <!-- Main headline -->
+  <text x="90" y="290" font-family="'Plus Jakarta Sans',sans-serif" font-size="74" font-weight="800" fill="#fff" letter-spacing="-2">Shape your career</text>
+  <text x="90" y="378" font-family="'Plus Jakarta Sans',sans-serif" font-size="74" font-weight="800" fill="#fff" letter-spacing="-2">with confidence</text>
+
+  <!-- Sub -->
+  <text x="92" y="438" font-family="'Plus Jakarta Sans',sans-serif" font-size="26" font-weight="500" fill="#e0e7ff">Career guidance, training, mentorship &amp; placement —</text>
+  <text x="92" y="472" font-family="'Plus Jakarta Sans',sans-serif" font-size="26" font-weight="500" fill="#e0e7ff">all in one connected journey.</text>
+
+  <!-- Tag -->
+  <g transform="translate(90,510)">
+    <rect width="270" height="56" rx="28" fill="url(#amber)"/>
+    <text x="135" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',sans-serif" font-size="20" font-weight="800" fill="#fff">Book a Free Session →</text>
+  </g>
+
+  <!-- Stats pill -->
+  <g transform="translate(410,520)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans',sans-serif" font-size="15" font-weight="600" fill="#c7d2fe">12,000+ students mentored  ·  92% placement rate  ·  450+ hiring partners</text>
+  </g>
+</svg>
